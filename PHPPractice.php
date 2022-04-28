@@ -13,7 +13,7 @@
     function myTest()
     {
     // using x inside this function will generate an error
-    echo "<p>Variable x inside function is: $x</p>";
+    // echo "<p>Variable x inside function is: $x</p>";
     }
     myTest();
 
@@ -25,8 +25,20 @@
         $x = 5; // local scope
         echo "<p>Variable x inside function is: $x</p>";
     }
-    myTest();
+    myTest2();
       
     // using x outside the function will generate an error
     echo "<p>Variable x outside function is: $x</p>";
+
+    // using the global keyword in a function
+    $x = 5;
+    $y = 10;
+
+    function myTest3() {
+    global $x, $y;
+    $y = $x + $y;
+    }
+
+    myTest3();
+    echo $y; // outputs 15
 ?>
