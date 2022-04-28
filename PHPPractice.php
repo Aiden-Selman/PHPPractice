@@ -41,4 +41,16 @@
 
     myTest3();
     echo $y; // outputs 15
+
+    // using the static keyword to not delete variables after initial use
+    function myTest4() 
+    {
+        static $x = 0;
+        echo $x;
+        $x++;
+    }
+      
+    myTest4();
+    myTest4();
+    myTest4();
 ?>
