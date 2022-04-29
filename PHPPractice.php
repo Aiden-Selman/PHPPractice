@@ -53,4 +53,12 @@
     myTest4();
     myTest4();
     myTest4();
+
+    // print is different from echo becuase print has a return value where echo does not
+    print "<h2>PHP is Fun!</h2>";
+    print "Hello world!<br>";
+    print "I'm about to learn PHP!";
+    echo "<h2>PHP is Fun!</h2>";
+    echo "Hello world!<br>";
+    echo "I'm about to learn PHP!";
 ?>
