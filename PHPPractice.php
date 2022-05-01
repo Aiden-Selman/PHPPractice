@@ -61,4 +61,15 @@
     echo "<h2>PHP is Fun!</h2>";
     echo "Hello world!<br>";
     echo "I'm about to learn PHP!";
+
+    /* Data types in php are
+    - String
+    - Integer
+    - Float/double
+    - Boolean
+    - Array
+    - Object
+    - NULL
+    - Resource
+    */
 ?>
