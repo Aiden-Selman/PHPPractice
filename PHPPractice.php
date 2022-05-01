@@ -63,7 +63,7 @@
     echo "I'm about to learn PHP!";
 
     /* Data types in php are
-    - String
+    - String $string = "Hello world!"; or $string = 'Hellow world!';
     - Integer
     - Float/double
     - Boolean
