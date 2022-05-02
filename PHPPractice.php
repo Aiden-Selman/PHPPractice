@@ -1,5 +1,4 @@
 <?php
-
     // simple text output
     $txt = "PHP";
     echo "I love $txt";
@@ -64,7 +63,7 @@
 
     /* Data types in php are
     - String $string = "Hello world!"; or $string = 'Hello world!';
-    - Integer
+    - Integer $integer = 1234;
     - Float/double
     - Boolean
     - Array
