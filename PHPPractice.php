@@ -64,7 +64,7 @@
     /* Data types in php are
     - String $string = "Hello world!"; or $string = 'Hello world!';
     - Integer $integer = 1234;
-    - Float/double
+    - Float/double $float = 10.358;
     - Boolean
     - Array
     - Object
