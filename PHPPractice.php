@@ -65,7 +65,7 @@
     - String $string = "Hello world!"; or $string = 'Hello world!';
     - Integer $integer = 1234;
     - Float/double $float = 10.358;
-    - Boolean
+    - Boolean $true = true; $false = false;
     - Array
     - Object
     - NULL
