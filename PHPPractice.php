@@ -66,7 +66,7 @@
     - Integer $integer = 1234;
     - Float/double $float = 10.358;
     - Boolean $true = true; $false = false;
-    - Array
+    - Array $cars = array("Volvo", "BMW", "Toyota");
     - Object
     - NULL
     - Resource
