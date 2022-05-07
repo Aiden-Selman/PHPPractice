@@ -67,8 +67,8 @@
     - Float/double $float = 10.358;
     - Boolean $true = true; $false = false;
     - Array $cars = array("Volvo", "BMW", "Toyota");
-    - Object
-    - NULL
+    - Object - declare a class ex. class Car{}
+    - NULL - $NULL = null;
     - Resource
     */
 ?>
