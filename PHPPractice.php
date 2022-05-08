@@ -69,6 +69,9 @@
     - Array $cars = array("Volvo", "BMW", "Toyota");
     - Object - declare a class ex. class Car{}
     - NULL - $NULL = null;
-    - Resource
+    - Resource - Advanced topic learn later
     */
+
+    // String functions
+    echo strlen("Hello World!");
 ?>
