@@ -74,4 +74,5 @@
 
     // String functions
     echo strlen("Hello World!");
+    echo str_word_count("Hello world!");
 ?>
