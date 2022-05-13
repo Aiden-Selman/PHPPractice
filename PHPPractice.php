@@ -73,6 +73,7 @@
     */
 
     // String functions
-    echo strlen("Hello World!");
-    echo str_word_count("Hello world!");
+    echo strlen("Hello World!"); // outputs 12
+    echo str_word_count("Hello world!"); // outputs 2
+    echo strrev("Hello world!") // outputs !dlrow olleH
 ?>
