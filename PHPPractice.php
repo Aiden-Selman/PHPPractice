@@ -78,4 +78,10 @@
     echo strrev("Hello world!"); // outputs !dlrow olleH
     echo strpos("Hello world!", "world"); // outputs 6
     echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+
+    // Number functions
+    $x = 5985;
+    var_dump(is_int($x)); // returns true
+    $x = 59.85;
+    var_dump(is_int($x)); // returns false
 ?>
