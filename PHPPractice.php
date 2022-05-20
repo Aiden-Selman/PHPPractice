@@ -84,4 +84,7 @@
     var_dump(is_int($x)); // returns true
     $x = 59.85;
     var_dump(is_int($x)); // returns false
+
+    $x = 10.365;
+    var_dump(is_float($x)); // returns true
 ?>
