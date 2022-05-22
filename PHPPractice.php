@@ -87,4 +87,6 @@
 
     $x = 10.365;
     var_dump(is_float($x)); // returns true
+
+    echo(pi()); // returns 3.1415926535898
 ?>
