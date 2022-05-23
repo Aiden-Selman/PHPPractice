@@ -88,5 +88,9 @@
     $x = 10.365;
     var_dump(is_float($x)); // returns true
 
+    // Math functions
     echo(pi()); // returns 3.1415926535898
+
+    echo(min(0, 150, 30, 20, -8, -200));  // returns -200
+    echo(max(0, 150, 30, 20, -8, -200));  // returns 150
 ?>
