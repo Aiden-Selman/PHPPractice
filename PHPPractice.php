@@ -95,4 +95,6 @@
     echo(max(0, 150, 30, 20, -8, -200));  // returns 150
 
     echo(abs(-6.7));  // returns 6.7
+
+    echo(sqrt(64));  // returns 8
 ?>
