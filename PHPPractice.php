@@ -97,4 +97,7 @@
     echo(abs(-6.7));  // returns 6.7
 
     echo(sqrt(64));  // returns 8
+
+    echo(round(0.60));  // returns 1
+    echo(round(0.49));  // returns 0
 ?>
