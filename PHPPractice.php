@@ -100,4 +100,7 @@
 
     echo(round(0.60));  // returns 1
     echo(round(0.49));  // returns 0
+
+    echo(rand()); // retuns a random number
+    echo(rand(10, 100)); // returns a random number between 10 and 100 (inclusive)
 ?>
