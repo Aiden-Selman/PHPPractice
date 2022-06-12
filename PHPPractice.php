@@ -103,4 +103,8 @@
 
     echo(rand()); // retuns a random number
     echo(rand(10, 100)); // returns a random number between 10 and 100 (inclusive)
+
+    // Constants
+    define("GREETING", "Welcome to W3Schools.com!");
+    echo GREETING;
 ?>
