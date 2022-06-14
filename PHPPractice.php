@@ -105,6 +105,11 @@
     echo(rand(10, 100)); // returns a random number between 10 and 100 (inclusive)
 
     // Constants
+    // Case sensative
     define("GREETING", "Welcome to W3Schools.com!");
     echo GREETING;
+
+    // Case insensative
+    define("GREETING", "Welcome to W3Schools.com!", true);
+    echo greeting;
 ?>
