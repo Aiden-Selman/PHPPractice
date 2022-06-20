@@ -117,4 +117,12 @@
     define
     ("cars", ["Alfa Romeo","BMW","Toyota"]);
     echo cars[0];
+
+    // If... else... else if...
+    // If
+    $t = date("H");
+    if ($t < "20") 
+    {
+        echo "Have a good day!";
+    }
 ?>
