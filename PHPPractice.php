@@ -169,4 +169,14 @@
         default:
             echo "Your favorite color is neither red, blue, nor green!";
     }
+
+    // Loops
+    // While loop
+    $x = 1;
+
+    while($x <= 5) 
+    {
+        echo "The number is: $x <br>";
+        $x++;
+    }
 ?>
