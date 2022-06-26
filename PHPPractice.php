@@ -179,4 +179,12 @@
         echo "The number is: $x <br>";
         $x++;
     }
+
+    // Do while loop
+    do 
+    {
+        echo "The number is: $x <br>";
+        $x++;
+    } 
+    while ($x <= 5);
 ?>
