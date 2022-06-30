@@ -138,12 +138,14 @@
         echo "Have a good night!";
     }
 
+    // If elseif else
     $t = date("H");
 
     if ($t < "10") 
     {
         echo "Have a good morning!";
-    } elseif ($t < "20") 
+    } 
+    elseif ($t < "20") 
     {
         echo "Have a good day!";
     } 
@@ -211,4 +213,12 @@
         }
         echo "The number is: $x <br>";
     }
+
+    // Functions
+    function writeMsg() 
+    {
+        echo "Hello world!";
+    }
+      
+    writeMsg(); // call the function
 ?>
