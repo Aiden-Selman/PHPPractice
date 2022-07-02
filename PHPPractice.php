@@ -234,4 +234,14 @@
     familyName("Stale");
     familyName("Kai Jim");
     familyName("Borge");
+
+    // Function with 2 arguments
+    function familyName($fname, $year) 
+    {
+        echo "$fname Refsnes. Born in $year <br>";
+    }
+      
+    familyName("Hege", "1975");
+    familyName("Stale", "1978");
+    familyName("Kai Jim", "1983");
 ?>
