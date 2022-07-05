@@ -251,19 +251,19 @@
         return $a + $b;
     }
     echo addNumbers(5, "5 days");
-    // since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
+    // Since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
 
-    declare(strict_types=1); // strict requirement
+    declare(strict_types=1); // Strict requirement
 
     function addNumbers(int $a, int $b) 
     {
         return $a + $b;
     }
     echo addNumbers(5, "5 days");
-    // since strict is enabled and "5 days" is not an integer, an error will be thrown
+    // Since strict is enabled and "5 days" is not an integer, an error will be thrown
 
     // Value returning methods
-    declare(strict_types=1); // strict requirement
+    declare(strict_types=1); // Strict requirement
     function sum(int $x, int $y) 
     {
         $z = $x + $y;
@@ -273,4 +273,14 @@
     echo "5 + 10 = " . sum(5, 10) . "<br>";
     echo "7 + 13 = " . sum(7, 13) . "<br>";
     echo "2 + 4 = " . sum(2, 4);
+
+    // Passing in values via reference
+    function add_five(&$value) 
+    {
+        $value += 5;
+    }
+      
+    $num = 2;
+    add_five($num);
+    echo $num;
 ?>
