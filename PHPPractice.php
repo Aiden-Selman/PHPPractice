@@ -283,4 +283,9 @@
     $num = 2;
     add_five($num);
     echo $num;
+
+    // Arrays
+    // Declaration
+    $cars = array("Volvo", "BMW", "Toyota");
+    echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 ?>
