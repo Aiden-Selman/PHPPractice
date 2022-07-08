@@ -298,4 +298,8 @@
         echo $cars[$x];
         echo "<br>";
     }
+
+    // Associative array
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    echo "Peter is " . $age['Peter'] . " years old.";
 ?>
