@@ -337,11 +337,25 @@
     // Sorting arrays
     // Sort Method
     // The following example sorts the elements of the $cars array in ascending alphabetical order
+    // Strings
     $cars = array("Volvo", "BMW", "Toyota");
     sort($cars);
 
+    // Numbers
+    $numbers = array(4, 6, 2, 22, 11);
+    sort($numbers);
+
     // rsort method
     // The following example sorts the elements of the $cars array in descending alphabetical order
+    // Strings
     $cars = array("Volvo", "BMW", "Toyota");
     rsort($cars);
+
+    // Numbers
+    $numbers = array(4, 6, 2, 22, 11);
+    rsort($numbers);
+
+    // The following example sorts an associative array in ascending order, according to the value
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    asort($age);
 ?>
