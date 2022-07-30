@@ -358,4 +358,8 @@
     // The following example sorts an associative array in ascending order, according to the value
     $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
     asort($age);
+
+    // The following example sorts an associative array in ascending order, according to the key
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    ksort($age);
 ?>
