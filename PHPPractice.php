@@ -463,4 +463,17 @@
         PHP $_GET is a PHP super global variable which is used to collect form data after submitting an HTML form with method="get"
     */
     echo "Study " . $_GET['subject'] . " at " . $_GET['web'];
+
+    // RegEx
+    /*
+        A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for.
+
+        A regular expression can be a single character, or a more complicated pattern.
+
+        Regular expressions can be used to perform all types of text search and text replace operations.
+    */
+    // The preg_match() function will tell you whether a string contains matches of a pattern.
+    $str = "Visit W3Schools";
+    $pattern = "/w3schools/i";
+    echo preg_match($pattern, $str); // Outputs 1
 ?>
