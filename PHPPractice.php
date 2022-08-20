@@ -472,8 +472,15 @@
 
         Regular expressions can be used to perform all types of text search and text replace operations.
     */
+    // preg_match()
     // The preg_match() function will tell you whether a string contains matches of a pattern.
     $str = "Visit W3Schools";
     $pattern = "/w3schools/i";
     echo preg_match($pattern, $str); // Outputs 1
+
+    // preg_match_all()
+    // The preg_match_all() function will tell you how many matches were found for a pattern in a string
+    $str = "The rain in SPAIN falls mainly on the plains.";
+    $pattern = "/ain/i";
+    echo preg_match_all($pattern, $str); // Outputs 4
 ?>
