@@ -483,4 +483,10 @@
     $str = "The rain in SPAIN falls mainly on the plains.";
     $pattern = "/ain/i";
     echo preg_match_all($pattern, $str); // Outputs 4
+
+    // preg_replace
+    // The preg_replace() function will replace all of the matches of the pattern in a string with another string
+    $str = "Visit Microsoft!";
+    $pattern = "/microsoft/i";
+    echo preg_replace($pattern, "W3Schools", $str); // Outputs "Visit W3Schools!"
 ?>
